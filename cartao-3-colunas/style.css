@@ -1,0 +1,118 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Lexend Deca' sans-serif;
+}
+
+.container-pai {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.container-pai h2{
+    color: hsl(0, 0%, 95%);
+    display: inline-block;
+    margin: 0 0 0px 30px;
+    font-size: 25px;
+}
+
+.container-pai p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 20px;
+}
+
+.container-pai button {
+    align-self: center;
+    text-align: center;
+}
+
+.container-pai p{
+    margin: 0px 30px 25px 26px;
+    text-align: left;
+}
+
+.container-pai button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    font-size: 16px;
+    margin: 20px 66px 26px 0;
+    height: 50px;
+    width: 148px;
+}
+
+.container-pai .container-sedans{
+    background-color: hsl(31, 77%, 52%);
+    width: 307px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-pai .container-sedans img{
+    margin: 27px 0 0 29px;
+}
+
+.container-pai .container-sedans .link-sedans{
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+}
+
+.container-pai .container-suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 307px;
+    height: 500px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.container-pai .container-suvs img{
+    margin: 27px 0 0 29px;
+}
+
+.container-pai .container-suvs .link-suvs{
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+}
+
+.container-pai .container-luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 307px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left; 
+}
+
+.container-pai .container-luxury img{
+    margin: 27px 0 0 29px;
+}
+
+.container-pai .container-luxury .link-luxury{
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+}
